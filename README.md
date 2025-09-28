@@ -46,6 +46,7 @@ Your sheet should look like this:
    const WORK_HOURS_TEXT = '11 to 4';       // <-- change this to your typical working hours
    const TZ              = 'Europe/Berlin'; // time zone for date formatting (leave as is unless needed)
    /******************/
+```
 
    - **USER_NAME** → Replace `'Your Name'` with your own name so your Slack post starts with something like `"Alice’s Daily Standup"`.
 - **WORK_HOURS_TEXT** → Replace `'11 to 4'` with the hours you usually work, e.g., `'9 to 5'`.  
