@@ -14,7 +14,7 @@ This script was originally built for my personal use, so it might not be perfect
   - If you post in the morning, it won’t reflect today’s hours correctly.
 - If you have coding knowledge and with the help of AI, you can modify it to your liking.
 - Otherwise, you can just use it as-is and **post at the end of the day**, which works perfectly.
-- (Optional) You can notify your program director that you post your standup at the end of the day.
+- You can notify your program director that you post your standup at the end of the day.
 
 ---
 
@@ -46,6 +46,7 @@ Your sheet should look like this:
    const WORK_HOURS_TEXT = '11 to 4';       // <-- change this to your typical working hours
    const TZ              = 'Europe/Berlin'; // time zone for date formatting (leave as is unless needed)
    /******************/
+
    - **USER_NAME** → Replace `'Your Name'` with your own name so your Slack post starts with something like `"Alice’s Daily Standup"`.
 - **WORK_HOURS_TEXT** → Replace `'11 to 4'` with the hours you usually work, e.g., `'9 to 5'`.  
   This text will appear in your Slack post under “My Hours Today.”
@@ -128,13 +129,6 @@ If you forgot to log a past day:
 | Copy standup from Post!A1 | Control + C         |
 | Open Extensions menu    | Alt + N, then Down Arrow until "Apps Script" |
 | Open Standup menu       | Alt + F, then Left Arrow once |
-
----
-
-## Why Post at End of Day
-- This script is designed to include today’s hours in the weekly total.  
-- If you post at the **start of the day**, today’s hours won’t be counted.  
-- Posting at the end of the day ensures totals are accurate.
 
 ---
 
